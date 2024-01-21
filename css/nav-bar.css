@@ -1,0 +1,40 @@
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F0F1F3;
+    padding: 18px 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    color: inherit;
+    position: relative;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__btn:last-child span {
+    width: 7px;
+    height: 7px; 
+    left: 25px;
+    bottom: 25px;
+}
