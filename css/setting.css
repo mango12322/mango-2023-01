@@ -1,0 +1,46 @@
+
+/* 세팅 헤더 */
+.alt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px 20px;
+    opacity: 90%;
+    margin-bottom: 15px;
+}
+.alt-header__title {
+    font-size: 25px;
+    font-weight: 600;
+}
+/* .alt-header-column {
+    width: 33%;
+}
+.alt-header-column:first-child {
+    margin-right: auto;
+}
+.alt-header-column:first-child {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.alt-header-column:nth-child(2) {
+    text-align: center;
+} */
+
+
+/* 세팅 메인 세팅 */
+.settings-setting {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings-setting i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}

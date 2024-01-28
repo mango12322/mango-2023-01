@@ -22,3 +22,6 @@
   right: 15px;
   top: 40px;
 }
+:visited {
+  color: black;
+}
