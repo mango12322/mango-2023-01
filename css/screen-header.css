@@ -22,6 +22,8 @@
   right: 15px;
   top: 40px;
 }
+
+:link,
 :visited {
   color: black;
 }
